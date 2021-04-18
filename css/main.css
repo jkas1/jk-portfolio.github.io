@@ -997,12 +997,13 @@ header .top-bar {
 }
 #myVideo {
   position: absolute;
-  right: 0;
-  bottom: 0;
+  top: 0;
+  left: 0;
   min-width: 100vw;
   min-height: 100vh;
   z-index: -1;
   object-fit: cover;
+  background: no-repeat center center/cover;
 }
 #intro {
   background: #000;
@@ -1011,7 +1012,7 @@ header .top-bar {
   background-size: cover;
   background-attachment: fixed;
   width: 100vw;
-  height: 105vh;
+  height: 100vh;
   display: table;
   position: relative;
   text-align: center;
@@ -1113,6 +1114,14 @@ header .top-bar {
     margin: 0 10px;
   }
 }
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+  .intro-content .container {
+    margin-top: -20rem;
+  }
+  .intro-social {
+    top: 30rem;
+  }
+}
 @media only screen and (max-width: 600px) {
   #intro {
     min-height: 600px;
@@ -1126,6 +1135,14 @@ header .top-bar {
   }
   .intro-social {
     font-size: 2.4rem;
+  }
+}
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+  .intro-content .container {
+    margin-top: -20rem;
+  }
+  .intro-social {
+    top: 25rem;
   }
 }
 #about {
