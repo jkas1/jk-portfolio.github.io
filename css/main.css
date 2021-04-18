@@ -1096,7 +1096,7 @@ header .top-bar {
   }
 }
 @media only screen and (max-width: 768px) {
-/*   #myVideo {
+  #myVideo {
     display: none;
   }
   #intro {
@@ -1109,7 +1109,7 @@ header .top-bar {
     display: table;
     position: relative;
     text-align: center;
-  } */
+  }
   .intro-content #shadow span {
     font-size: 5rem;
   }
@@ -1132,7 +1132,7 @@ header .top-bar {
   }
 }
 @media only screen and (max-width: 600px) {
-/*   #myVideo {
+  #myVideo {
     display: none;
   }
   #intro {
@@ -1145,7 +1145,7 @@ header .top-bar {
     display: table;
     position: relative;
     text-align: center;
-  } */
+  }
   .intro-content #shadow span {
     font-size: 4.5rem;
   }
