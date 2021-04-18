@@ -1462,10 +1462,16 @@ ul.edu-icons li:before {
   }
   #resume .timeline-header,
   #resume .timeline-content {
-    padding: 0 5.5rem 0 5.5rem;
+    padding: 0 5rem 0 5rem;
   }
   ul.skills-icons li {
     width: 38%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  #resume .timeline-header,
+  #resume .timeline-content {
+    padding: 0 4rem 0 4rem;
   }
 }
 #portfolio {
@@ -1634,7 +1640,7 @@ ul.edu-icons li:before {
 }
 #modal1 .link-box a:nth-child(1) {
   font-size: 1.1rem;
-  width: 25%;
+  width: 20%;
 }
 #modal1 .link-box a:nth-child(2),
 #modal1 .link-box a:nth-child(3) {
@@ -1643,7 +1649,7 @@ ul.edu-icons li:before {
 }
 #modal1 .link-box a:nth-child(4) {
   font-size: 1.1rem;
-  width: 15%;
+  width: 20%;
 }
 .popup-modal .link-box a:first-child {
   border-right: 1px solid rgba(200, 200, 200, 0.1);
@@ -1656,6 +1662,25 @@ ul.edu-icons li:before {
   .popup-modal {
     width: auto;
     margin: 0 20px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  #portfolio .folio-types {
+    font-size: 1.25rem;
+    line-height: 2;
+  }
+  #modal1 .link-box a:nth-child(1) {
+    font-size: 0.9rem;
+    width: 20%;
+  }
+  #modal1 .link-box a:nth-child(2),
+  #modal1 .link-box a:nth-child(3) {
+    font-size: 0.9rem;
+    width: 30%;
+  }
+  #modal1 .link-box a:nth-child(4) {
+    font-size: 0.9rem;
+    width: 20%;
   }
 }
 /* overlay at start */
