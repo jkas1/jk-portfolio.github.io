@@ -969,7 +969,6 @@ header .top-bar {
 }
 .main-navigation li a:hover {
   color: #ff0077;
-  padding-left: 1rem;
 }
 .main-navigation li.current > a {
   background: none;
