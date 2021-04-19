@@ -1213,9 +1213,6 @@ header .top-bar {
   font-size: 1.5rem;
   line-height: 1;
 }
-.about-content .skill-bars {
-  margin-top: 6rem;
-}
 .button-section {
   text-align: center;
 }
@@ -1236,8 +1233,7 @@ header .top-bar {
     height: 7.8rem;
     width: 7.8rem;
   }
-  .about-content .info-list,
-  .about-content .skill-bars {
+  .about-content .info-list {
     margin-bottom: 4.2rem;
   }
   .button-section .button {
@@ -1370,6 +1366,11 @@ ul.skills-icons li a {
   color: #fff;
   font-family: MyFont3;
 }
+ul.skills-icons li p {
+  margin-top: 0.5rem;
+  line-height: 1.25;
+}
+/* Education Section */
 ul.edu-icons li span {
   font-family: MyFont3;
   color: #ccc;
