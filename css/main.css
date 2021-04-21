@@ -1815,7 +1815,7 @@ ul.edu-icons li:before {
 #contact input[type="text"]:focus,
 #contact input[type="password"]:focus,
 #contact input[type="email"]:focus {
-  border-color: #ff0077;
+  border-bottom: 1px solid #ff0077;
   color: #fff;
 }
 #contact textarea {
@@ -1823,7 +1823,7 @@ ul.edu-icons li:before {
   padding: 1rem 2rem;
 }
 #contact textarea:focus {
-  border-color: #ff0077;
+  border-bottom: 1px solid #ff0077;
   color: #fff;
 }
 #contact button.submitform {
