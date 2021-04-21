@@ -1803,7 +1803,7 @@ ul.edu-icons li:before {
   width: 100%;
   color: #ccc;
   margin-bottom: 0;
-  border: none;
+  border: 1px solid transparent;
   border-bottom: 1px solid #ccc;
 }
 #contact input[type="text"],
