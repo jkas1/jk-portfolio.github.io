@@ -425,8 +425,16 @@
       </div>
       <div class="row contact-form">
         <div class="col-twelve">
-          <form name="contactForm" id="contactForm" method="post" action="https://formsubmit.co/juliekasparian@gmail.com">
+          <form
+            name="contactForm"
+            id="contactForm"
+            method="post"
+            action="https://formsubmit.co/juliekasparian@gmail.com"
+          >
             <fieldset>
+              <div class="form-field">
+                <input type="hidden" name="_subject" value="New email!" />
+              </div>
               <div class="form-field">
                 <input
                   name="contactName"
@@ -468,7 +476,9 @@
                 ></textarea>
               </div>
               <div class="form-field">
-                <button class="submitform" title="Send Message">Send Message</button>
+                <button class="submitform" title="Send Message">
+                  Send Message
+                </button>
                 <div id="submit-loader">
                   <div class="text-loader">Sending...</div>
                   <div class="s-loader">
@@ -480,12 +490,6 @@
               </div>
             </fieldset>
           </form>
-          <!-- contact-warning -->
-          <div id="message-warning"></div>
-          <!-- contact-success -->
-          <div id="message-success">
-            <i class="fa fa-check"></i>Your message was sent, thank you!<br />
-          </div>
         </div>
       </div>
     </section>
