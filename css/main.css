@@ -46,6 +46,7 @@ body {
   font-size: 1.7rem;
   line-height: 3rem;
   color: #ccc;
+  overflow-x: hidden;
 }
 a,
 a:visited {
