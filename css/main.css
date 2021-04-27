@@ -1647,19 +1647,6 @@ ul.edu-icons li:before {
     font-size: 1.25rem;
     line-height: 2;
   }
-  #modal1 .link-box a:nth-child(1) {
-    font-size: 0.9rem;
-    width: 20%;
-  }
-  #modal1 .link-box a:nth-child(2),
-  #modal1 .link-box a:nth-child(3) {
-    font-size: 0.9rem;
-    width: 30%;
-  }
-  #modal1 .link-box a:nth-child(4) {
-    font-size: 0.9rem;
-    width: 20%;
-  }
 }
 /* overlay at start */
 .mfp-fade.mfp-bg {
