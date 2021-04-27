@@ -1632,19 +1632,6 @@ ul.edu-icons li:before {
   -ms-transition: opacity 0.3s, transform 0.2s ease-in-out;
   transition: opacity 0.3s, transform 0.2s ease-in-out;
 }
-#modal1 .link-box a:nth-child(1) {
-  font-size: 1.1rem;
-  width: 20%;
-}
-#modal1 .link-box a:nth-child(2),
-#modal1 .link-box a:nth-child(3) {
-  font-size: 1.1rem;
-  width: 30%;
-}
-#modal1 .link-box a:nth-child(4) {
-  font-size: 1.1rem;
-  width: 20%;
-}
 .popup-modal .link-box a:hover {
   background: #ff0077;
   border: none;
