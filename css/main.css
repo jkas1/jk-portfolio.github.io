@@ -1623,7 +1623,7 @@ ul.edu-icons li:before {
   transition: opacity 0.3s, transform 0.2s ease-in-out;
 }
 .popup-modal .link-box a:hover {
-  background: #ff0077;
+  color: #ff0077;
   border: none;
 }
 @media only screen and (max-width: 600px) {
