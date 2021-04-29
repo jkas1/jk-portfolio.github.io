@@ -1310,14 +1310,15 @@ header .top-bar {
   padding-right: 50px;
   text-align: right;
 }
-#resume .timeline-header h3 {
+#resume .timeline-header h4 {
   margin-bottom: 0;
   font-family: MyFont4;
   color: #fff;
+  margin-bottom: 0.5rem;
 }
 #resume .timeline-header p {
   font-family: MyFont3;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   color: #ccc;
 }
 #resume .timeline-content {
@@ -1328,13 +1329,13 @@ header .top-bar {
   position: relative;
   font-family: MyFont4;
   color: #fff;
-  line-height: 2rem;
+  margin-bottom: 0.95rem;
 }
 #resume .timeline-content h4::after {
   content: "";
   display: block;
   height: 3px;
-  width: 50px;
+  width: 60px;
   background: #ff0077;
   position: absolute;
   left: 0;
@@ -1387,12 +1388,6 @@ ul.edu-icons li:before {
   #resume .timeline-header {
     padding-right: 50px;
   }
-  #resume .timeline-header h3 {
-    font-size: 1.8rem;
-  }
-  #resume .timeline-header p {
-    font-size: 1.4rem;
-  }
   #resume .timeline-content {
     padding-left: 40px;
   }
@@ -1407,11 +1402,7 @@ ul.edu-icons li:before {
     padding-right: 15px;
     text-align: left;
   }
-  #resume .timeline-header h3 {
-    font-size: 2rem;
-  }
   #resume .timeline-header p {
-    font-size: 1.5rem;
     margin-bottom: 1.5rem;
   }
   #resume .timeline-content {
@@ -1421,7 +1412,6 @@ ul.edu-icons li:before {
     padding-bottom: 0;
     padding-top: 2.1rem;
     margin-bottom: 1.5rem;
-    font-size: 1.7rem;
   }
   #resume .timeline-content h4::after {
     bottom: auto;
