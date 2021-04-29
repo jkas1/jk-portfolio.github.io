@@ -1788,14 +1788,15 @@ footer .footer-social li {
   padding: 0;
 }
 footer .footer-social li a {
-  color: #ccc;
+  color: #fff;
 }
 footer .footer-social li a:hover,
 footer .footer-social li a:focus {
   color: #ff0077;
 }
-footer .copyright span {
+footer .copyright {
   display: inline-block;
+  color: #fff;
 }
 @media only screen and (max-width: 768px) {
   footer {
@@ -1827,9 +1828,10 @@ footer .copyright span {
   line-height: 4rem;
   text-align: center;
   background: #ff0077;
+  border-radius: 50px;
   color: #fff;
-  text-align: center;
-  text-transform: uppercase;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
   -moz-transition: opacity 0.3s, transform 0.2s ease-in-out;
   -o-transition: opacity 0.3s, transform 0.2s ease-in-out;
   -webkit-transition: opacity 0.3s, transform 0.2s ease-in-out;
@@ -1841,5 +1843,5 @@ footer .copyright span {
   line-height: inherit;
 }
 #go-top a:hover {
-  background: #000;
+  background: #01abef;
 }
