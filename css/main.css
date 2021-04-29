@@ -1573,12 +1573,6 @@ ul.edu-icons li:before {
     margin: 0 20px;
   }
 }
-@media only screen and (max-width: 375px) {
-  #portfolio .portfolio-icon {
-    font-size: 1.25rem;
-    line-height: 2;
-  }
-}
 /* overlay at start */
 .mfp-fade.mfp-bg {
   opacity: 0;
