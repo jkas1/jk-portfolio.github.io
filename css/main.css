@@ -160,14 +160,6 @@ b {
   font-style: normal;
   font-weight: normal;
 }
-em,
-i {
-  font-family: "lora-italic", serif;
-}
-strong,
-b {
-  font-family: "lora-bold", serif;
-}
 small {
   font-size: 1.2rem;
   line-height: inherit;
@@ -316,7 +308,6 @@ table {
   border-width: 0;
   width: 100%;
   max-width: 100%;
-  font-family: "lora-regular", sans-serif;
 }
 th,
 td {
@@ -705,7 +696,7 @@ input::-moz-focus-inner {
   padding: 0;
 }
 .alert-box {
-  padding: 2.1rem 4rem 2.1rem 3rem;
+  padding: 2rem 4rem 2rem 3rem;
   position: relative;
   margin-bottom: 3rem;
   border-radius: 3px;
@@ -808,7 +799,7 @@ input::-moz-focus-inner {
   font-family: MyFont2;
   color: #ff0077;
   font-size: 4rem;
-  line-height: 1.875;
+  line-height: 1.5;
   margin-bottom: 0.3rem;
   letter-spacing: 0.4rem;
   text-transform: capitalize;
@@ -1026,9 +1017,9 @@ header .top-bar {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  -webkit-transform: translateY(-2.1rem);
-  -ms-transform: translateY(-2.1rem);
-  transform: translateY(-2.1rem);
+  -webkit-transform: translateY(-2rem);
+  -ms-transform: translateY(-2rem);
+  transform: translateY(-2rem);
 }
 .intro-content .container {
   margin-top: 5rem;
@@ -1286,24 +1277,6 @@ header .top-bar {
   position: relative;
   padding-top: 1.5rem;
 }
-#resume .timeline-ico {
-  height: 4.8rem;
-  width: 4.8rem;
-  line-height: 4.8rem;
-  background: #fff;
-  border-radius: 50%;
-  text-align: center;
-  color: #000;
-  position: absolute;
-  left: 35%;
-  top: 0.9rem;
-  margin-left: -2.4rem;
-}
-#resume .timeline-ico i {
-  position: relative;
-  left: 0.05rem;
-  top: 0.2rem;
-}
 #resume .timeline-header {
   float: left;
   width: 35%;
@@ -1410,7 +1383,7 @@ ul.edu-icons li:before {
   }
   #resume .timeline-content h4 {
     padding-bottom: 0;
-    padding-top: 2.1rem;
+    padding-top: 2rem;
     margin-bottom: 1.5rem;
   }
   #resume .timeline-content h4::after {
@@ -1436,14 +1409,6 @@ ul.edu-icons li:before {
   #resume .timeline-wrap::before {
     left: 1.8rem;
   }
-  #resume .timeline-ico {
-    height: 3.6rem;
-    width: 3.6rem;
-    line-height: 3.6rem;
-    left: 1.8rem;
-    margin-left: -1.8rem;
-    font-size: 1.5rem;
-  }
   #resume .timeline-header,
   #resume .timeline-content {
     padding: 0 5rem 0 5rem;
@@ -1463,12 +1428,12 @@ ul.edu-icons li:before {
   padding-top: 12rem;
   padding-bottom: 12rem;
 }
-#portfolio .folio-item {
+#portfolio .portfolio-item {
   padding-bottom: 1rem;
   position: relative;
   overflow: hidden;
 }
-#portfolio .folio-item img {
+#portfolio .portfolio-item img {
   vertical-align: middle;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
@@ -1489,14 +1454,14 @@ ul.edu-icons li:before {
   -ms-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-#portfolio .folio-item-table {
+#portfolio .portfolio-item-table {
   display: table;
   width: 100%;
   height: 100%;
   margin: auto;
   padding: 1rem;
 }
-#portfolio .folio-item-cell {
+#portfolio .portfolio-item-cell {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
@@ -1508,70 +1473,46 @@ ul.edu-icons li:before {
   position: relative;
   left: -100%;
 }
-#portfolio .folio-title {
-  color: #fff;
-  font-size: 3.5rem;
-  padding: 0 3rem;
-  margin-bottom: 0;
-  display: none;
-}
-#portfolio .folio-types {
+#portfolio .portfolio-icon {
   margin: 0;
   padding: 0;
   text-transform: uppercase;
   font-family: MyFont3;
-  font-size: 1.5rem;
+  font-size: 5rem;
   letter-spacing: 0.1rem;
   color: #fff;
   display: none;
 }
-#portfolio .folio-item:hover .overlay {
+#portfolio .portfolio-item:hover .overlay {
   background: rgba(0, 0, 0, 0.8);
 }
-#portfolio .folio-item:hover .folio-item-cell {
+#portfolio .portfolio-item:hover .portfolio-item-cell {
   left: 0;
 }
-#portfolio .folio-item:hover img {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-}
-#portfolio .folio-item:hover .folio-title,
-#portfolio .folio-item:hover .folio-types {
+#portfolio .portfolio-item:hover .portfolio-icon {
   display: unset;
 }
-#folio-wrapper {
+#portfolio-wrapper {
   width: 60%;
   height: auto;
   margin: auto;
 }
 @media only screen and (max-width: 1024px) {
-  #portfolio .folio-title {
-    font-size: 3rem;
-  }
-  #folio-wrapper {
+  #portfolio-wrapper {
     width: 70%;
     height: auto;
     margin: auto;
   }
 }
 @media only screen and (max-width: 768px) {
-  #portfolio .folio-title {
-    font-size: 2.5rem;
-  }
-  #folio-wrapper {
+  #portfolio-wrapper {
     width: 100%;
     height: auto;
     margin: auto;
   }
 }
-@media only screen and (max-width: 400px) {
-  #portfolio .folio-title {
-    font-size: 2rem;
-  }
-}
 .popup-modal {
-  max-width: 550px;
+  max-width: 600px;
   background: #fff;
   position: relative;
   margin: 0 auto;
@@ -1583,20 +1524,20 @@ ul.edu-icons li:before {
   vertical-align: bottom;
 }
 .popup-modal .description-box {
-  padding: 1.8rem 3.6rem 3rem;
+  padding: 2.5rem;
+  text-align: center;
 }
 .popup-modal .description-box h4 {
   font-family: MyFont4;
-  font-size: 1.7rem;
-  line-height: 2.4rem;
-  margin-bottom: 0.6rem;
+  line-height: 2.5rem;
+  margin-bottom: 0;
   color: #000;
 }
 .popup-modal .description-box p {
   font-family: MyFont3;
   font-size: 1.5rem;
-  line-height: 2.4rem;
-  margin-bottom: 12px;
+  line-height: 2.5rem;
+  margin-bottom: 0;
   color: #000;
 }
 .popup-modal .link-box {
@@ -1606,8 +1547,8 @@ ul.edu-icons li:before {
 }
 .popup-modal .link-box a {
   font-family: MyFont4;
-  font-size: 1.2rem;
-  line-height: 6rem;
+  font-size: 1.5rem;
+  line-height: 5rem;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -1633,7 +1574,7 @@ ul.edu-icons li:before {
   }
 }
 @media only screen and (max-width: 375px) {
-  #portfolio .folio-types {
+  #portfolio .portfolio-icon {
     font-size: 1.25rem;
     line-height: 2;
   }
@@ -1811,7 +1752,7 @@ ul.edu-icons li:before {
   padding: 0;
 }
 .contact-info .icon {
-  margin-bottom: 2.1rem;
+  margin-bottom: 2rem;
 }
 .contact-info .icon i {
   font-size: 4.2rem;
@@ -1841,7 +1782,7 @@ footer .social {
 }
 footer .footer-social {
   display: inline-block;
-  font-size: 2.1rem;
+  font-size: 2rem;
   margin: 0;
   padding: 0;
   position: relative;
