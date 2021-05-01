@@ -1255,15 +1255,15 @@ header .top-bar {
   color: #ff0077;
   font-family: MyFont4;
 }
-#resume .resume-timeline {
+#resume .resume-section {
   max-width: 800px;
 }
-#resume .timeline-wrap {
+#resume .education-wrap {
   position: relative;
   margin-top: 0;
   margin-bottom: 10rem;
 }
-#resume .timeline-wrap::before {
+#resume .education-wrap::before {
   content: "";
   display: block;
   width: 3px;
@@ -1273,38 +1273,38 @@ header .top-bar {
   left: 35%;
   top: 5%;
 }
-#resume .timeline-block {
+#resume .education-block {
   position: relative;
   padding-top: 1.5rem;
 }
-#resume .timeline-header {
+#resume .education-header {
   float: left;
   width: 35%;
   padding-right: 50px;
   text-align: right;
 }
-#resume .timeline-header h4 {
+#resume .education-header h4 {
   margin-bottom: 0;
   font-family: MyFont4;
   color: #fff;
   margin-bottom: 0.5rem;
 }
-#resume .timeline-header p {
+#resume .education-header p {
   font-family: MyFont3;
   font-size: 1.6rem;
   color: #ccc;
 }
-#resume .timeline-content {
+#resume .education-content {
   margin-left: 35%;
   padding-left: 50px;
 }
-#resume .timeline-content h4 {
+#resume .education-content h4 {
   position: relative;
   font-family: MyFont4;
   color: #fff;
   margin-bottom: 0.95rem;
 }
-#resume .timeline-content h4::after {
+#resume .education-content h4::after {
   content: "";
   display: block;
   height: 3px;
@@ -1358,47 +1358,47 @@ ul.edu-icons li:before {
   font-weight: 400;
 }
 @media only screen and (max-width: 1024px) {
-  #resume .timeline-header {
+  #resume .education-header {
     padding-right: 50px;
   }
-  #resume .timeline-content {
+  #resume .education-content {
     padding-left: 40px;
   }
 }
 @media only screen and (max-width: 768px) {
-  #resume .timeline-wrap::before {
+  #resume .education-wrap::before {
     display: none;
   }
-  #resume .timeline-header {
+  #resume .education-header {
     float: none;
     width: auto;
     padding-right: 15px;
     text-align: left;
   }
-  #resume .timeline-header p {
+  #resume .education-header p {
     margin-bottom: 1.5rem;
   }
-  #resume .timeline-content {
+  #resume .education-content {
     margin: 0;
   }
-  #resume .timeline-content h4 {
+  #resume .education-content h4 {
     padding-bottom: 0;
     padding-top: 2rem;
     margin-bottom: 1.5rem;
   }
-  #resume .timeline-content h4::after {
+  #resume .education-content h4::after {
     bottom: auto;
     top: 0;
     display: unset;
   }
-  #resume .timeline-header,
-  #resume .timeline-content {
+  #resume .education-header,
+  #resume .education-content {
     padding: 0 7rem 0 7rem;
   }
 }
 @media only screen and (max-width: 600px) {
-  #resume .timeline-header,
-  #resume .timeline-content {
+  #resume .education-header,
+  #resume .education-content {
     padding: 0 4rem 0 4rem;
   }
 }
@@ -1406,11 +1406,11 @@ ul.edu-icons li:before {
   #resume .resume-header h2 {
     font-size: 2.2rem;
   }
-  #resume .timeline-wrap::before {
+  #resume .education-wrap::before {
     left: 1.8rem;
   }
-  #resume .timeline-header,
-  #resume .timeline-content {
+  #resume .education-header,
+  #resume .education-content {
     padding: 0 5rem 0 5rem;
   }
   ul.skills-icons li {
@@ -1418,8 +1418,8 @@ ul.edu-icons li:before {
   }
 }
 @media only screen and (max-width: 375px) {
-  #resume .timeline-header,
-  #resume .timeline-content {
+  #resume .education-header,
+  #resume .education-content {
     padding: 0 4rem 0 4rem;
   }
 }
