@@ -1567,6 +1567,9 @@ ul.edu-icons li:before {
   color: #ff0077;
   border: none;
 }
+#modal0 .link-box a {
+  width: 50%;
+}
 @media only screen and (max-width: 600px) {
   .popup-modal {
     width: auto;
